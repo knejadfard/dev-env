@@ -10,6 +10,7 @@ git config --global core.editor vim
 ```
 
 Another very helpful configuration is the **git prompt** script, located [here](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh). The purpose of this script is to interrogate some git repository details for the current workin directory, including the current branch of the repository, whether or not you have unstaged changes, untracked files, etc.
+There is also the **git completion** script located [here](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).
 
 The included .bashrc file includes a customized PS1 variable that uses the linked git-prompt.
 
